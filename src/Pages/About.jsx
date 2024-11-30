@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom"
 import aboutImage from "../assets/Self confidence-bro.svg"
 const About = () => {
   return (
@@ -19,8 +20,8 @@ const About = () => {
 <p className="text-neutral-600 mb-4">I'm driven by curiosity and the desire to learn, and I'm excited to collaborate on innovative projects that make a difference.</p>
      
     <div className="flex mb-4 items-center justify-start">
-    <button onClick={()=>{window.open("https://www.linkedin.com/in/ibrahim-adebanjo/", "_blank", "noopener,noreferrer")}} className="bg-green-100 mr-12  p-3 rounded-3xl text-gray-700">Download CV</button>
-    <button onClick={()=>{window.open("https://www.linkedin.com/in/ibrahim-adebanjo/", "_blank", "noopener,noreferrer")}} className="border-green-500 border-2 mr-12 p-2 rounded-3xl text-gray-700">Hire Me</button>
+    <button onClick={()=>{window.open("https://drive.google.com/file/d/1HLGzUsd7lcsOf3gMxCBWb828D0KROAka/view?usp=drive_link", "_blank", "noopener,noreferrer")}} className="bg-green-100 mr-12  p-3 rounded-3xl text-gray-700">Download CV</button>
+      <Link className="border-green-500 border-2 mr-12 p-2 rounded-3xl text-gray-700" to="/contact" >Hire Me</Link>
       </div> 
       </div>
     </div>
