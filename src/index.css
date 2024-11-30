@@ -16,3 +16,19 @@ body{
   grid-template-columns:  auto auto auto;
 
 }
+.service-card{
+  background-image: linear-gradient(to bottom, #d4fc79 0%, #96e6a1 100%);
+}
+
+.card{
+  background-image: linear-gradient(to bottom, #d4fc79 0%, #96e6a1 100%);
+}
+
+
+.skill-level{
+  @apply border-2 border-gray-200 text-white min-w-[3rem] min-h-[3rem]
+  grid place-items-center  rounded-full max-w-[3rem]  md:absolute  md:right-[-20px];
+}
+#textarea{
+  resize: none;
+}

@@ -10,7 +10,7 @@ const Navbar = () => {
     <div className="flex py-4 items-center justify-between ">
        
     <h4><span className="text-green-600">IBRAHIM</span>  ADEBANJO</h4> 
-    <ul className=" hidden md:flex items-center  sm:flex gap-5 text-sm text-gray-700">
+    <ul className=" hidden md:flex items-center  sm:flex gap-3 text-sm text-gray-700">
        <NavLink to={"/"} className=" flex flex-col  items-center gap-1">
         <p >HERO</p>
         <hr className="w-3/4 border-none h-[1.5px] bg-gray-700 hidden" />
@@ -46,7 +46,7 @@ const Navbar = () => {
 
 
     <div className={`absolute top-0 bottom-0 overflow-hidden bg-white transition-all ${visible ? 'w-full' : "w-0"}`}>
-   <div className='flex flex-col text-gray-600'>
+   <div className='flex flex-col text-gray-600 '>
 <div onClick={()=> {setVisible(false)}} className="cursor-pointer flex items-center gap-4 p-3">
 <i className='bx bx-left-arrow-alt text-2xl font-bold '></i>
 <p className="text-green-800">Back</p>
