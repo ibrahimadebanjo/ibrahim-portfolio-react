@@ -8,9 +8,9 @@ const Projects = () => {
        <h2 className="text-center text-4xl mt-3 mb-4">MY PROJECTS</h2>
        <p className="text-stone-700 text-xl text-center mb-8 ">Recent developments.</p>
     
-    <div className='flex justify-between items-center gap-[1%] flex-col lg:flex-row mb-8'>
+    <div className='flex justify-between items-center gap-[4%] md:gap-[1%] flex-col lg:flex-row mb-8'>
       {/*  */}
-      <div className="flex flex-col bg-green-200 lg:h-[470px] lg:w-[24%] xl:h-[390px] ">
+      <div className="flex flex-col bg-green-200 lg:h-[470px] lg:w-[24%] mb-6 xl:h-[390px] ">
         <div>
         <img src={project_1} alt="" className='h-56 w-full lg:h-32' />
         </div>
@@ -26,7 +26,7 @@ const Projects = () => {
       </div>
 {/*  */}
       {/*  */}
-      <div className="flex flex-col bg-green-200 lg:h-[470px] lg:w-[24%] xl:h-[390px]">
+      <div className="flex flex-col bg-green-200 lg:h-[470px] lg:w-[24%] mb-6 xl:h-[390px]">
         <div>
         <img src={project_2} alt="" className='h-56 w-full lg:h-32' />
         </div>
@@ -43,7 +43,7 @@ const Projects = () => {
       {/*  */}
 
       {/*  */}
-      <div className="flex flex-col bg-green-200 lg:h-[470px] lg:w-[24%] xl:h-[390px]">
+      <div className="flex flex-col bg-green-200 lg:h-[470px] lg:w-[24%] mb-6 xl:h-[390px]">
         <div>
         <img src={project_3} alt="" className='h-56 w-full lg:h-32' />
         </div>
@@ -60,7 +60,7 @@ const Projects = () => {
       {/*  */}
 
       {/*  */}
-      <div className="flex flex-col bg-green-200 lg:h-[470px] lg:w-[24%] xl:h-[390px]">
+      <div className="flex flex-col bg-green-200 lg:h-[470px] lg:w-[24%] mb-6 xl:h-[390px]">
         <div>
         <img src={project_4} alt="" className='h-56 w-full lg:h-32' />
         </div>
