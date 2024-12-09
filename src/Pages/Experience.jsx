@@ -21,13 +21,13 @@ const Experience = () => {
   <div className="w-8 h-8 rounded-full">
 <img src={ileseImage} className="" alt="" />
   </div>
-  <div className="h-full w-[2px] bg-green-500 "></div>
+  <div className="h-full w-[2px] bg-slate-300 "></div>
   </div>
 
-  <div className=" bg-green-400 text-white p-3 rounded-md">
+  <div className=" bg-slate-200 p-3 rounded-md">
 <div className="flex flex-col ">
-<p className='text-sm text font-bold '>2012 - 2018</p>
-<h3 className='text-[18px] font-semibold '>Ilese Comprehensive High School</h3>
+<p className='text-sm text font-bold text-green-600'>2012 - 2018</p>
+<h3 className='text-[18px] font-semibold  text-green-600'>Ilese Comprehensive High School</h3>
 <p className='text-[14px]'>Completed high school diploma with strong foundation in sciences and Mathematics and Computer Science. laying the groundwork for my future pursuits in technology and Veterinary Medicine.</p>
 </div>
   </div>
@@ -40,13 +40,13 @@ const Experience = () => {
   <div className="w-8 h-8 rounded-full">
 <img src={abuImage} className="" alt="" />
   </div>
-  <div className="h-full w-[2px] bg-green-500"></div>
+  <div className="h-full w-[2px] bg-slate-300"></div>
   </div>
 
-  <div className=" bg-green-400 text-white p-3 mt-2 rounded-md">
+  <div className=" bg-slate-200   p-3 mt-2 rounded-md">
 <div className="flex flex-col ">
-<p className='text-sm text font-bold '>2023 - Present</p>
-<h3 className='text-[18px] font-semibold '>Ahmadu Bello University Of Zaria.</h3>
+<p className='text-sm text font-bold  text-green-600'>2023 - Present</p>
+<h3 className='text-[18px] font-semibold  text-green-600 '>Ahmadu Bello University Of Zaria.</h3>
 <p className='text-[14px]'>Currently Pursuing a degree in Veterinary Medicine with a focus on leveraging technology to improve animal </p>
 </div>
   </div>
@@ -59,13 +59,13 @@ const Experience = () => {
   <div className="w-8 h-8 rounded-full">
 <img src={yic} className="" alt="" />
   </div>
-  <div className="h-full w-[2px] bg-green-500 "></div>
+  <div className="h-full w-[2px] bg-slate-300 "></div>
   </div>
 
-  <div className=" bg-green-400 text-white p-3 mt-2 rounded-md">
+  <div className="bg-slate-200   p-3 mt-2 rounded-md">
 <div className="flex flex-col ">
-<p className='text-sm text font-bold '>2022 - 2023</p>
-<h3 className='text-[18px] font-semibold '>Frontend Developer Internship.</h3>
+<p className='text-sm text font-bold text-green-500'>2022 - 2023</p>
+<h3 className='text-[18px] font-semibold text-green-500'>Frontend Developer Internship.</h3>
 <p className='text-[14px]'>Participated in a 4-month Frontend Development Scholarship Program, 
   mastering HTML, CSS, JavaScript, and React through weekly hands-on projects, assignments, and testing. 
   The program consisted of three levels: Basic (HTML/CSS), Intermediate (JavaScript), and 
@@ -83,13 +83,13 @@ const Experience = () => {
   <div className="w-8 h-8 rounded-full">
 <img src={alx} className="" alt="" />
   </div>
-  <div className="h-full w-[2px] bg-green-500 "></div>
+  <div className="h-full w-[2px] bg-slate-300 "></div>
   </div>
 
-  <div className=" bg-green-400 text-white p-3 mt-2 rounded-md">
+  <div className=" bg-slate-200   p-3 mt-2 rounded-md">
 <div className="flex flex-col ">
-<p className='text-sm text font-bold '>2023 - 2024</p>
-<h3 className='text-[18px] font-semibold '>ALX Professional Foundations</h3>
+<p className='text-sm text font-bold text-green-500'>2023 - 2024</p>
+<h3 className='text-[18px] font-semibold text-green-500 '>ALX Professional Foundations</h3>
 <p className='text-[14px]'>Completed an 8-week professional development program,
    enhancing expertise in 8 key meta skills: Self-Awareness, Teamwork and Management, 
    Effective Communication, Quantitative Reasoning, Entrepreneurial Thinking, Critical Thinking, 
@@ -112,13 +112,13 @@ const Experience = () => {
   <div className="w-8 h-8 rounded-full">
 <img src={codeSmith} className="" alt="" />
   </div>
-  <div className="h-full w-[2px] bg-green-500 "></div>
+  <div className="h-full w-[2px] bg-slate-300 "></div>
   </div>
 
-  <div className=" bg-green-400 text-white p-3 mt-2 rounded-md">
+  <div className=" bg-slate-200   p-3 mt-2 rounded-md">
 <div className="flex flex-col ">
-<p className='text-sm text font-bold '>2022 - 2023</p>
-<h3 className='text-[18px] font-semibold '>Codesmith SWE Bootcamp </h3>
+<p className='text-sm text font-bold text-green-500'>2022 - 2023</p>
+<h3 className='text-[18px] font-semibold text-green-500 '>Codesmith SWE Bootcamp </h3>
 <p className='text-[14px]'>Joined software engineering bootcamp  where i learnt more about programming languages like Javascript.</p>
 </div>
   </div>
@@ -131,13 +131,13 @@ const Experience = () => {
   <div className="w-8 h-8 rounded-full">
 <img src={alx} className="" alt="" />
   </div>
-  <div className="h-full w-[2px] bg-green-500 "></div>
+  <div className="h-full w-[2px] bg-slate-300  "></div>
   </div>
 
-  <div className=" bg-green-400 text-white p-3 mt-2 rounded-md">
+  <div className=" bg-slate-200  p-3 mt-2 rounded-md">
 <div className="flex flex-col ">
-<p className='text-sm text font-bold '>2023 - 2024</p>
-<h3 className='text-[18px] font-semibold '>ALX AICE</h3>
+<p className='text-sm text font-bold text-green-500'>2023 - 2024</p>
+<h3 className='text-[18px] font-semibold text-green-500 '>ALX AICE</h3>
 <p className='text-[14px]'>ALX AICE focus on AI-powered tools and techniques, such as predictive analytics, generative adversarial networks,
    and deep learning, help software engineers build more efficient, reliable, and innovative software systems.
 ALX AICE empowers software engineers to build cutting-edge systems leveraging AI-powered tools and techniques, 
@@ -153,13 +153,13 @@ including: Predictive Analytics, Generative Adversarial Networks (GANs) and Deep
   <div className="w-8 h-8 rounded-full">
 <img src={alx} className="" alt="" />
   </div>
-  <div className="h-full w-[2px] bg-green-500 "></div>
+  <div className="h-full w-[2px] bg-slate-300  "></div>
   </div>
 
-  <div className=" bg-green-400 text-white p-3 mt-2 rounded-md">
+  <div className=" bg-slate-200  p-3 mt-2 rounded-md">
 <div className="flex flex-col ">
-<p className='text-sm text font-bold '>2023 - 2024</p>
-<h3 className='text-[18px] font-semibold '>ALX Frontend Programme </h3>
+<p className='text-sm text font-bold text-green-500'>2023 - 2024</p>
+<h3 className='text-[18px] font-semibold text-green-500'>ALX Frontend Programme </h3>
 <p className='text-[14px]'>ALX Frontend Engineering program focus on building intuitive and interactive
    digital interfaces, frontend developers bring websites and applications to life using cutting-edge technologies
     like HTML, CSS, JavaScript, 
@@ -175,13 +175,13 @@ including: Predictive Analytics, Generative Adversarial Networks (GANs) and Deep
   <div className="w-8 h-8 rounded-full">
 <img src={fcda} className="" alt="" />
   </div>
-  <div className="h-full w-[2px] bg-green-500 "></div>
+  <div className="h-full w-[2px] bg-slate-300  "></div>
   </div>
 
-  <div className=" bg-green-400 text-white p-3 mt-2 rounded-md">
+  <div className=" bg-slate-200  p-3 mt-2 rounded-md">
 <div className="flex flex-col ">
-<p className='text-sm text font-bold '>2023 - 2024</p>
-<h3 className='text-[18px] font-semibold '>Industrial Trainee  </h3>
+<p className='text-sm text font-bold text-green-500 '>2023 - 2024</p>
+<h3 className='text-[18px] font-semibold text-green-500 '>Industrial Trainee  </h3>
 <p className='text-[14px]'>As a veterinary medical student, I enrolled in a comprehensive 2-month industrial training
    program at Nyanya veterinary clinic (FCTA), leveraging technology to enhance animal healthcare. This hands-on
     experience combined clinical expertise with digital 
