@@ -11,7 +11,7 @@ const Skillsets = (props) => {
  <h3 className="text-2xl  text-stone-400 font-bold">Frameworks/Library </h3>
  <div className="flex flex-wrap gap-4 justify-center items-center">
        <div className="flex justify-between gap-6 md:flex-wrap">
-        <div className="border-2  border-green-100 text-center">
+        <div className="border-2  border-green-200 text-center">
         <i className={props.framework.tailwind}></i>
         </div>
 

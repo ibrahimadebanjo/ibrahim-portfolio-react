@@ -47,7 +47,7 @@ const Experience = () => {
 <div className="flex flex-col ">
 <p className='text-sm text font-bold  text-green-600'>2023 - Present</p>
 <h3 className='text-[18px] font-semibold  text-green-600 '>Ahmadu Bello University Of Zaria.</h3>
-<p className='text-[14px]'>Currently Pursuing a degree in Veterinary Medicine with a focus on leveraging technology to improve animal </p>
+<p className='text-[14px]'>Currently Pursuing a degree in Veterinary Medicine with a focus on leveraging technology to improve animal well-being </p>
 </div>
   </div>
 </div>
