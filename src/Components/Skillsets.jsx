@@ -1,7 +1,10 @@
+
+import { useContext } from "react"
+import { AppContext } from "../Context/Context"
 import next from "../assets/nextjs-icon-512x512-y563b8iq.png"
 import material from "../assets/material-ui.svg"
-import PropTypes from "prop-types"
-const Skillsets = (props) => {
+const Skillsets = () => {
+  const {tools, framework} = useContext(AppContext)
     return (
       <div className="mb-10">
        <h2 className="text-center  text-stone-600 mt-4 mb-4 text-4xl"> MY SKILLS</h2>
@@ -12,18 +15,18 @@ const Skillsets = (props) => {
  <div className="flex flex-wrap gap-4 justify-center items-center">
        <div className="flex justify-between gap-6 md:flex-wrap">
         <div className="border-2  border-green-200 text-center">
-        <i className={props.framework.tailwind}></i>
+        <i className={framework.tailwind}></i>
         </div>
 
         <div className="border-2  border-green-200 text-center">
-        <i className={props.framework.react}></i>
+        <i className={framework.react}></i>
         </div>
 
        </div>
 
        <div className="flex justify-between gap-6 md:flex-wrap">
         <div className="border-2  border-green-200 text-center">
-        <i className={props.framework.bootstrap}></i>
+        <i className={framework.bootstrap}></i>
         </div>
 
         <div className="border-2  border-green-200 text-center">
@@ -35,11 +38,11 @@ const Skillsets = (props) => {
 
        <div className="flex justify-between gap-6 md:flex-wrap">
         <div className="border-2  border-green-200 text-center">
-        <i className={props.framework.vue}></i>
+        <i className={framework.vue}></i>
         </div>
 
         <div className="border-2  border-green-200 text-center">
-        <i className={props.framework.redux}></i>
+        <i className={framework.redux}></i>
         </div>
 
        </div>
@@ -50,7 +53,7 @@ const Skillsets = (props) => {
         </div>
 
         <div className="border-2  border-green-200 text-center">
-        <i className={props.framework.angular}></i>
+        <i className={framework.angular}></i>
         </div>
 
        </div>
@@ -64,44 +67,44 @@ const Skillsets = (props) => {
  <div className="flex flex-wrap gap-4 justify-center items-center">
        <div className="flex justify-between gap-6 md:flex-wrap">
         <div className="border-2  border-green-200 text-center">
-        <i className={props.tools.git}></i>
+        <i className={tools.git}></i>
         </div>
 
         <div className="border-2  border-green-200 text-center">
-        <i className={props.tools.github}></i>
-        </div>
-
-       </div>
-
-       <div className="flex justify-between gap-6 md:flex-wrap">
-        <div className="border-2  border-green-200 text-center">
-        <i className={props.tools.firebase}></i>
-        </div>
-
-        <div className="border-2  border-green-200 text-center">
-        <i className={props.tools.html}></i>
+        <i className={tools.github}></i>
         </div>
 
        </div>
 
        <div className="flex justify-between gap-6 md:flex-wrap">
         <div className="border-2  border-green-200 text-center">
-        <i className={props.tools.node}></i>
+        <i className={tools.firebase}></i>
         </div>
 
         <div className="border-2  border-green-200 text-center">
-        <i className={props.tools.javascript}></i>
+        <i className={tools.html}></i>
         </div>
 
        </div>
 
        <div className="flex justify-between gap-6 md:flex-wrap">
         <div className="border-2  border-green-200 text-center">
-        <i className={props.tools.css}></i>
+        <i className={tools.node}></i>
         </div>
 
         <div className="border-2  border-green-200 text-center">
-        <i className={props.tools.typescript}></i>
+        <i className={tools.javascript}></i>
+        </div>
+
+       </div>
+
+       <div className="flex justify-between gap-6 md:flex-wrap">
+        <div className="border-2  border-green-200 text-center">
+        <i className={tools.css}></i>
+        </div>
+
+        <div className="border-2  border-green-200 text-center">
+        <i className={tools.typescript}></i>
         </div>
 
        </div>
@@ -112,12 +115,4 @@ const Skillsets = (props) => {
     </div>
     )
   }
-
-Skillsets.propTypes = {
-  framework: 
-  PropTypes.objectOf(PropTypes.string).isRequired,
-  tools: 
-  PropTypes.objectOf(PropTypes.string).isRequired
-}
-
   export default Skillsets;
