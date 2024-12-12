@@ -10,12 +10,12 @@ const Projects = () => {
     
     <div className='flex justify-between items-center gap-[4%] md:gap-[1%] flex-col lg:flex-row mb-8'>
       {/*  */}
-      <div className="flex flex-col border-2  border-stone-300 lg:h-[490px] lg:w-[24%] mb-6 xl:h-[390px] ">
+      <div className="flex flex-col border-2  border-stone-300 lg:h-[490px] lg:w-[24%] mb-6 xl:h-[400px] ">
         <div>
         <img src={project_1} alt="" className='h-56  w-full lg:h-40' />
         </div>
-      <h2 className='text-lg text-neutral-700 mt-2 mb-2 ml-2'>Netflix Clone</h2>
-       <p className='text-md mt-2 text-neutral-700 mb-2 ml-2'>Designed and developed a Netflix clone, scalable web application offering user authentication, movie recommendations, abd a seamless
+      <h2 className='text-lg text-neutral-700  mb-1 ml-2'>Netflix Clone</h2>
+       <p className='text-md  text-neutral-700 mb-1 ml-2'>Designed and developed a Netflix clone, scalable web application offering user authentication, movie recommendations, abd a seamless
         viewing experience, leveraging React, Tailwind and Firebase. </p>
         <div className='mb-2 ml-2 mt-2 flex gap-10'>
         <button className=' rounded-lg text-center p-2 text-white bg-green-500' 
@@ -26,14 +26,14 @@ const Projects = () => {
       </div>
 {/*  */}
       {/*  */}
-      <div className="flex flex-col border-2  border-stone-300 lg:h-[490px] lg:w-[24%] mb-6 xl:h-[390px]">
+      <div className="flex flex-col border-2  border-stone-300 lg:h-[490px] lg:w-[24%] mb-6 xl:h-[400px]">
         <div>
         <img src={project_2} alt="" className='h-56 w-full lg:h-40' />
         </div>
-      <h2 className='text-lg text-neutral-700 mt-2 mb-2 ml-2'>Fatimo's Portfolio Website</h2>
-       <p className='text-md mt-2 text-neutral-700 mb-2 ml-2'>Designed and developed a professional portfolio website,showcasing
-        her skills,Experience and projecting clean,responsive and user-friendly interface,built using HTML, CSS and Bootstrap. </p>
-        <div className='mb-2 ml-2 mt-2 flex gap-10'>
+      <h2 className='text-lg text-neutral-700  mb-1 ml-2'>Fatimo's Portfolio Website</h2>
+       <p className='text-md text-neutral-700 mb-1 ml-2'>Designed and developed a professional portfolio website,showcasing
+        her skills and Experience with responsive and user-friendly interface,built using HTML, CSS and Bootstrap. </p>
+        <div className='mb-2 ml-2  flex gap-10'>
         <button className=' rounded-lg text-center p-2 text-white bg-green-500' 
           onClick={()=>{window.open("https://github.com/ibrahimadebanjo/fatimah-portfolio", "_blank", "noopener,noreferrer")}}>Github</button>
           <button className='text-center rounded-lg  p-2 text-white bg-green-500'
@@ -43,7 +43,7 @@ const Projects = () => {
       {/*  */}
 
       {/*  */}
-      <div className="flex flex-col border-2  border-stone-300 lg:h-[490px] lg:w-[24%] mb-6 xl:h-[390px]">
+      <div className="flex flex-col border-2  border-stone-300 lg:h-[490px] lg:w-[24%] mb-6 xl:h-[400px]">
         <div>
         <img src={project_3} alt="" className='h-56 w-full lg:h-40' />
         </div>
@@ -60,7 +60,7 @@ const Projects = () => {
       {/*  */}
 
       {/*  */}
-      <div className="flex flex-col border-2  border-stone-300 lg:h-[490px] lg:w-[24%] mb-6 xl:h-[390px]">
+      <div className="flex flex-col border-2  border-stone-300 lg:h-[490px] lg:w-[24%] mb-6 xl:h-[400px]">
         <div>
         <img src={project_4} alt="" className='h-56 w-full lg:h-40' />
         </div>
