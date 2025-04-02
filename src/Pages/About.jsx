@@ -10,10 +10,10 @@ const About = () => {
 <hr  />
         </div>
   <h2 className="text-xl mb-4  ">INTRODUCTION</h2>
-<p className="text-neutral-600 mb-4">Hi I am <span className="text-green-500">Ibrahim Adebanjo</span>, a Frontend developer and a Veterinary Medical Student passionate about solving problems and creating impactful solutions. I specialize in 
+<p className="text-neutral-600 mb-4">Hi I am <span className="text-green-500">Ibrahim Adebanjo</span>, a Software  developer and a Veterinary Medical Student passionate about solving problems and creating impactful solutions. I specialize in 
   building intuitive web applications using technologies like React, Tailwind e.t.c, with a focus on seamless user experiences. </p>
 
-<p className="text-neutral-600 mb-4">I am also expanding my expertise into QA Engineering and Backend development to become more versatile software professional. My background in Veterinary Medicine enhances my analytical thinking and attention to detail skills i bring into both
+<p className="text-neutral-600 mb-4">I am also expanding my expertise into ML/AI Engineering to become more versatile software professional. My background in Veterinary Medicine enhances my analytical thinking and attention to detail skills i bring into both
   development and testing.
 </p>
 
